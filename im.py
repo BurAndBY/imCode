@@ -38,12 +38,7 @@ def demo_gui():
                 editor.set_palette(ed.TextEditor.get_dark_palette())
                 editor.set_language_definition(TextEditor.LanguageDefinition.python())
                 editor.set_show_whitespaces(True)
-            
-            
-            if clicked_find:
-                #Write a find button here
-
-                
+                           
             imgui.end_menu()
         imgui.end_main_menu_bar()
 
